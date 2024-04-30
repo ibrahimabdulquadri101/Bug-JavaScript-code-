@@ -1526,16 +1526,13 @@ function Joystick(callback) {
         pos = {
             left: {
                 x:"60px", y:"calc(100vh - 50px)", w:80, h:50,
-                svg: "<svg width='80'height='50'"+
+                 "<svg width='80'height='50'" :
                      "style='background:rgba(0,0,0,0);'><path fill='rgba(0,0,0,0.6)' d='"+
-                     "M22 25 l15 -15 l0 10 l20 0 l0 10 l-20 0 l0 10 z'></path>
-              </svg>",
+                     "M22 25 l15 -15 l0 10 l20 0 l0 10 l-20 0 l0 10 z'></path></svg>"
             },
             right: {
                 x:"150px", y:"calc(100vh - 50px)", w:80, h:50,
-                svg: "<svg width='80'height='50'"+
-                     "style='background:rgba(0,0,0,0);'><path fill='rgba(0,0,0,0.6)' d='"+
-                     "M58 25 l-15 -15 l0 10 l-20 0 l0 10 l20 0 l0 10 z'></path></svg>"
+                "<svg width='80'height='50'" : "style='background:rgba(0,0,0,0);'><path fill='rgba(0,0,0,0.6)' d='"+ "M58 25 l-15 -15 l0 10 l-20 0 l0 10 l20 0 l0 10 z'></path></svg>"
             },
             jump: {
                 x:"calc(100vw - 50px)", y:"calc(100vh - 50px)", w:50, h:50,
